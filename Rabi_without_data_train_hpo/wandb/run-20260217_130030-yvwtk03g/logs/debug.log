@@ -1,0 +1,25 @@
+2026-02-17 13:00:30,271 INFO    Thread-8 (_run_job):34952 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-17 13:00:30,271 INFO    Thread-8 (_run_job):34952 [wandb_setup.py:_flush():81] Configure stats pid to 34952
+2026-02-17 13:00:30,271 INFO    Thread-8 (_run_job):34952 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-17 13:00:30,271 INFO    Thread-8 (_run_job):34952 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\wandb\run-20260217_130030-yvwtk03g\logs\debug.log
+2026-02-17 13:00:30,272 INFO    Thread-8 (_run_job):34952 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\wandb\run-20260217_130030-yvwtk03g\logs\debug-internal.log
+2026-02-17 13:00:30,272 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():844] calling init triggers
+2026-02-17 13:00:30,272 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():849] wandb.init called with sweep_config: {'Delta': 0, 'Omega': 1, 'T_max': 20, 'activation': 'silu', 'dropout': 0.1, 'epochs': [30000, 50000], 'gamma': 0.1, 'grad_clip': 1, 'hidden_layers': 5, 'lam_con': 10, 'lam_ic': 50, 'lam_phys': 5, 'log_every': 50, 'lr': 0.0001600067913238011, 'lr_decay': 0.8, 'n_collocation': 2000, 'neurons': 128, 'optimizer': 'adamw', 'scheduler': 'multistep', 'step_size': 5000, 'weight_decay': 1e-05}
+config: {'_wandb': {}}
+2026-02-17 13:00:30,272 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():892] starting backend
+2026-02-17 13:00:32,539 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():895] sending inform_init request
+2026-02-17 13:00:32,543 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():903] backend started and connected
+2026-02-17 13:00:32,544 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_config_callback():1403] config_cb None None {'Delta': 0, 'Omega': 1, 'T_max': 20, 'activation': 'silu', 'dropout': 0.1, 'epochs': [30000, 50000], 'gamma': 0.1, 'grad_clip': 1, 'hidden_layers': 5, 'lam_con': 10, 'lam_ic': 50, 'lam_phys': 5, 'log_every': 50, 'lr': 0.0001600067913238011, 'lr_decay': 0.8, 'n_collocation': 2000, 'neurons': 128, 'optimizer': 'adamw', 'scheduler': 'multistep', 'step_size': 5000, 'weight_decay': 1e-05}
+2026-02-17 13:00:32,546 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():973] updated telemetry
+2026-02-17 13:00:32,550 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-17 13:00:33,230 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-17 13:00:33,304 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-17 13:00:33,304 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-17 13:00:33,304 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-17 13:00:33,305 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-17 13:00:33,307 INFO    Thread-8 (_run_job):34952 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-17 13:00:33,311 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_finish():2291] finishing run camilo-estrada-universidad-de-antioquia/rabi-pinn-pura/yvwtk03g
+2026-02-17 13:00:33,312 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 1
+2026-02-17 13:00:33,313 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_restore():2472] restore
+2026-02-17 13:00:33,313 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_restore():2478] restore done
+2026-02-17 13:00:34,384 INFO    Thread-8 (_run_job):34952 [wandb_run.py:_footer_sync_info():3868] logging synced files

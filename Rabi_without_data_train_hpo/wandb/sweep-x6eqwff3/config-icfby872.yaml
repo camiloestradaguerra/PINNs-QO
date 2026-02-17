@@ -1,0 +1,46 @@
+wandb_version: 1
+
+Delta:
+  value: 0
+Omega:
+  value: 1
+T_max:
+  value: 20
+activation:
+  value: tanh
+dropout:
+  value: 0.05
+epochs:
+  value:
+  - 30000
+  - 50000
+gamma:
+  value: 0.1
+grad_clip:
+  value: 2
+hidden_layers:
+  value: 3
+lam_con:
+  value: 50
+lam_ic:
+  value: 500
+lam_phys:
+  value: 0.5
+log_every:
+  value: 50
+lr:
+  value: 0.00031105199872376744
+lr_decay:
+  value: 0.8
+n_collocation:
+  value: 2000
+neurons:
+  value: 64
+optimizer:
+  value: adamw
+scheduler:
+  value: cosine
+step_size:
+  value: 5000
+weight_decay:
+  value: 0.0001

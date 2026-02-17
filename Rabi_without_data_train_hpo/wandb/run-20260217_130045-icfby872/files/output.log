@@ -1,0 +1,14 @@
+
+-- Trial --  capas=3  neuronas=64  lr=3.11e-04  act=tanh  sched=cosine  lam_phys=0.5  lam_ic=500
+  Parametros de la red : 8,708
+  Omega=1  Delta=0  gamma=0.1
+Traceback (most recent call last):
+  File "C:\Users\CAMILO\Documents\PINNs\pinn_env\Lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\rabi_pinn_pura_wandb.py", line 613, in run_sweep_trial
+    best_loss = pinn.train(ic=[0., 1., 0., 0.], use_wandb=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\rabi_pinn_pura_wandb.py", line 336, in train
+    pbar = tqdm(range(epochs), desc="Entrenando PINN pura", ncols=90)
+                ^^^^^^^^^^^^^
+TypeError: 'list' object cannot be interpreted as an integer

@@ -1,0 +1,24 @@
+  Parametros de la red : 12,868
+  Omega=1.0  Delta=0.0  gamma=0.1
+Entrenando PINN pura: 100%|█| 20000/20000 [18:34<00:00, 17.94it/s, Loss=0.0002, Phys=0.000
+
+=================================================================
+  MÉTRICAS FINALES
+=================================================================
+  mae_rho_ee                           0.041219
+  max_rho_ee                           0.110401
+  mae_rho_gg                           0.041219
+  max_rho_gg                           0.110401
+  mae_purity                           0.039432
+  max_trace_err                        0.000004
+  purity_max                           0.999906
+  purity_violations                           0
+  valid                                       1
+
+  Estado fisico: VALIDO
+=================================================================
+
+  Guardado: single_run_comparacion.png
+  Guardado: single_run_restricciones.png
+  Guardado: single_run_perdidas.png
+  Artifact W&B: single_run_model.pth

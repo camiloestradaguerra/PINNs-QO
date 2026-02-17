@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2026-02-17T05:21:24.164914Z",
+  "program":  "C:\\Users\\CAMILO\\Downloads\\rabi_pinn_wandb.py",
+  "codePath":  "rabi_pinn_wandb.py",
+  "codePathLocal":  "rabi_pinn_wandb.py",
+  "email":  "alberto.estrada@udea.edu.co",
+  "root":  "C:\\Users\\CAMILO\\Downloads",
+  "host":  "LAPTOP-9ACAG0LI",
+  "executable":  "C:\\Program Files\\Python311\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "511190233088",
+      "used":  "461143822336"
+    }
+  },
+  "memory":  {
+    "total":  "16456183808"
+  },
+  "writerId":  "kz5t7t1uvc7n3a7hbkd8b7mcx9osv1d7"
+}

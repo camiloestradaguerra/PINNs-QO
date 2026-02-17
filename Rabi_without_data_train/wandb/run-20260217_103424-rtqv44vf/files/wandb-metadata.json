@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2026-02-17T15:34:24.226117Z",
+  "program":  "C:\\Users\\CAMILO\\Documents\\PINNs\\Rabi_without_data_train\\rabi_pinn_pura_wandb.py",
+  "codePath":  "rabi_pinn_pura_wandb.py",
+  "codePathLocal":  "rabi_pinn_pura_wandb.py",
+  "email":  "alberto.estrada@udea.edu.co",
+  "root":  "C:\\Users\\CAMILO\\Documents\\PINNs\\Rabi_without_data_train",
+  "host":  "LAPTOP-9ACAG0LI",
+  "executable":  "C:\\Users\\CAMILO\\Documents\\PINNs\\pinn_env\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "511190233088",
+      "used":  "464085749760"
+    }
+  },
+  "memory":  {
+    "total":  "16456183808"
+  },
+  "writerId":  "6lvs3ps5t2cad1wdt3wu3iz6q0gpxcit"
+}

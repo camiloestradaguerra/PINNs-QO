@@ -1,0 +1,12 @@
+{"time":"2026-02-17T13:00:47.5943966-05:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-17T13:00:47.9205094-05:00","level":"INFO","msg":"stream: created new stream","id":"icfby872"}
+{"time":"2026-02-17T13:00:47.9205094-05:00","level":"INFO","msg":"handler: started","stream_id":"icfby872"}
+{"time":"2026-02-17T13:00:47.9221338-05:00","level":"INFO","msg":"stream: started","id":"icfby872"}
+{"time":"2026-02-17T13:00:47.9221338-05:00","level":"INFO","msg":"writer: started","stream_id":"icfby872"}
+{"time":"2026-02-17T13:00:47.9221338-05:00","level":"INFO","msg":"sender: started","stream_id":"icfby872"}
+{"time":"2026-02-17T13:00:49.6712423-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-17T13:00:49.9401191-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-17T13:00:49.9476716-05:00","level":"INFO","msg":"stream: closing","id":"icfby872"}
+{"time":"2026-02-17T13:00:49.9476716-05:00","level":"INFO","msg":"handler: closed","stream_id":"icfby872"}
+{"time":"2026-02-17T13:00:49.9483208-05:00","level":"INFO","msg":"sender: closed","stream_id":"icfby872"}
+{"time":"2026-02-17T13:00:49.9483208-05:00","level":"INFO","msg":"stream: closed","id":"icfby872"}

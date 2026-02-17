@@ -1,0 +1,15 @@
+
+-- Trial --  capas=5  neuronas=128  lr=1.60e-04  act=silu  sched=multistep  lam_phys=5  lam_ic=50
+Traceback (most recent call last):
+  File "C:\Users\CAMILO\Documents\PINNs\pinn_env\Lib\site-packages\wandb\agents\pyagent.py", line 304, in _run_job
+    self._function()
+  File "C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\rabi_pinn_pura_wandb.py", line 612, in run_sweep_trial
+    pinn      = RabiOscillationPINN(cfg=cfg)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\rabi_pinn_pura_wandb.py", line 220, in __init__
+    milestones = [int(epochs * f) for f in (0.4, 0.65, 0.85)],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train_hpo\rabi_pinn_pura_wandb.py", line 220, in <listcomp>
+    milestones = [int(epochs * f) for f in (0.4, 0.65, 0.85)],
+                      ~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'float'

@@ -1,0 +1,21 @@
+2026-02-17 10:30:16,439 INFO    MainThread:54820 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-17 10:30:16,441 INFO    MainThread:54820 [wandb_setup.py:_flush():81] Configure stats pid to 54820
+2026-02-17 10:30:16,441 INFO    MainThread:54820 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-17 10:30:16,441 INFO    MainThread:54820 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train\wandb\run-20260217_103016-r4ef0vzi\logs\debug.log
+2026-02-17 10:30:16,442 INFO    MainThread:54820 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\CAMILO\Documents\PINNs\Rabi_without_data_train\wandb\run-20260217_103016-r4ef0vzi\logs\debug-internal.log
+2026-02-17 10:30:16,442 INFO    MainThread:54820 [wandb_init.py:init():844] calling init triggers
+2026-02-17 10:30:16,443 INFO    MainThread:54820 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'Omega': 1.0, 'Delta': 0.0, 'gamma': 0.1, 'T_max': 20.0, 'hidden_layers': 4, 'neurons': 64, 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'adam', 'lr': 0.0005, 'scheduler': 'step', 'step_size': 5000, 'lr_decay': 0.9, 'weight_decay': 0.0, 'grad_clip': 1.0, 'lam_phys': 1.0, 'lam_ic': 200.0, 'lam_con': 20.0, 'epochs': 20000, 'n_collocation': 2000, 'log_every': 50, '_wandb': {}}
+2026-02-17 10:30:16,443 INFO    MainThread:54820 [wandb_init.py:init():892] starting backend
+2026-02-17 10:30:19,190 INFO    MainThread:54820 [wandb_init.py:init():895] sending inform_init request
+2026-02-17 10:30:19,230 INFO    MainThread:54820 [wandb_init.py:init():903] backend started and connected
+2026-02-17 10:30:19,379 INFO    MainThread:54820 [wandb_init.py:init():973] updated telemetry
+2026-02-17 10:30:19,384 INFO    MainThread:54820 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-17 10:30:21,972 INFO    MainThread:54820 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-17 10:30:22,145 INFO    MainThread:54820 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-17 10:30:22,146 INFO    MainThread:54820 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-17 10:30:22,146 INFO    MainThread:54820 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-17 10:30:22,147 INFO    MainThread:54820 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-17 10:30:22,157 INFO    MainThread:54820 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-17 10:32:25,782 INFO    wandb-AsyncioManager-main:54820 [service_client.py:_forward_responses():134] Reached EOF.
+2026-02-17 10:32:25,783 INFO    wandb-AsyncioManager-main:54820 [mailbox.py:close():155] Closing mailbox, abandoning 1 handles.

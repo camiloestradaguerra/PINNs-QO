@@ -1,0 +1,19 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2026-02-17T18:00:30.246248Z",
+  "args":  [
+    "--mode",
+    "sweep",
+    "--count",
+    "20"
+  ],
+  "program":  "C:\\Users\\CAMILO\\Documents\\PINNs\\Rabi_without_data_train_hpo\\rabi_pinn_pura_wandb.py",
+  "codePath":  "rabi_pinn_pura_wandb.py",
+  "codePathLocal":  "rabi_pinn_pura_wandb.py",
+  "email":  "alberto.estrada@udea.edu.co",
+  "root":  "C:\\Users\\CAMILO\\Documents\\PINNs\\Rabi_without_data_train_hpo",
+  "host":  "LAPTOP-9ACAG0LI",
+  "executable":  "C:\\Users\\CAMILO\\Documents\\PINNs\\pinn_env\\Scripts\\python.exe",
+  "writerId":  "8vrtxp0kfeobnwnoxtpl61uwpiu9r33w"
+}

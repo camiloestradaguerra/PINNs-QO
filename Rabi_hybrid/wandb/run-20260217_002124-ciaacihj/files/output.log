@@ -1,0 +1,23 @@
+Entrenando: 100%|███████████████████████████████████| 20000/20000 [44:01<00:00,  7.57it/s]
+
+=======================================================
+  MÉTRICAS FINALES
+=======================================================
+  mae_rho_ee                         2.32e-04
+  max_rho_ee                         9.10e-04
+  mae_rho_gg                         2.32e-04
+  max_rho_gg                         9.10e-04
+  mae_purity                         2.54e-04
+  max_purity_err                     1.62e-03
+  max_trace_err                      1.19e-07
+  purity_max                         1.00e+00
+  purity_violations                         0
+  valid                                     1
+
+  Estado fisico: VALIDO
+=======================================================
+
+  Guardado: single_run_comparacion.png
+  Guardado: single_run_errores.png
+  Guardado: single_run_restricciones.png
+  Artifact: single_run_model.pth
