@@ -1,0 +1,11 @@
+# Ignorar ambiente virtual
+pinn_env/
+
+# Ignorar cachés y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar carpeta de wandb
+wandb/
