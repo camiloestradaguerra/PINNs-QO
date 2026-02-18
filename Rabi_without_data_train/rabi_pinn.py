@@ -493,8 +493,8 @@ if __name__ == "__main__":
 
     # ── Parámetros físicos ───────────────────────────────────────────────────
     Omega  = 1.0    # Frecuencia de Rabi
-    Delta  = 0.0    # Desintonía
-    gamma  = 0.1    # Decaimiento espontáneo
+    Delta  = 0.5    # Desintonía
+    gamma  = 0.2    # Decaimiento espontáneo
     T_max  = 20.0   # Tiempo final
 
     print("=" * 65)
@@ -518,7 +518,7 @@ if __name__ == "__main__":
     pinn.train(
         T_max   = T_max,
         N_col   = 2000,       # puntos de colocación por época
-        epochs  = 200000,      # épocas de entrenamiento
+        epochs  = 100000,      # épocas de entrenamiento
         lam_phys= 1.0,        # peso ecuaciones de Bloch
         lam_ic  = 200.0,      # peso condición inicial  (alto: crítico)
         lam_con = 20.0,       # peso restricciones físicas

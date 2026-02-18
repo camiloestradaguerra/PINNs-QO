@@ -205,6 +205,10 @@ class RabiOscillationPINN:
 
         # Scheduler (incluye StepLR, el del script original)
         epochs = cfg["epochs"]
+        # Manejar caso quando epochs viene como lista del sweep
+        if isinstance(epochs, (list, tuple)):
+            epochs = max(epochs)  # tomar el máximo valor
+        epochs = int(epochs)
         sched  = cfg.get("scheduler", "step")
 
         if sched == "step":
@@ -317,6 +321,10 @@ class RabiOscillationPINN:
 
         cfg       = self.cfg
         epochs    = cfg["epochs"]
+        # Manejar caso cuando epochs viene como lista del sweep
+        if isinstance(epochs, (list, tuple)):
+            epochs = max(epochs)  # tomar el máximo valor
+        epochs = int(epochs)
         N_col     = cfg["n_collocation"]
         T_max     = cfg["T_max"]
         lam_phys  = cfg["lam_phys"]
